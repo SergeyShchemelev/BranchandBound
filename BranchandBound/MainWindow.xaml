@@ -1,0 +1,62 @@
+﻿<Window x:Class="BranchandBound.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:BranchandBound"
+        mc:Ignorable="d"
+        Title="BranchandBounds" Height="575" Width="525">
+    <Grid x:Name="g" >
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition />
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="45"/>
+            <RowDefinition Height="350"/>
+            <RowDefinition Height="40"/>
+            <RowDefinition Height="60"/>
+        </Grid.RowDefinitions>
+        <StackPanel Grid.Row="0" Grid.Column="0" HorizontalAlignment="Left"  VerticalAlignment="Top" Height="34" Width="426" Orientation="Horizontal" Margin="81,10,0,0" >
+            <Label Content="Число городов" FontSize="16" />
+            <Separator Width="22" Background="{x:Null}" />
+            <TextBox x:Name="textB_countCities" HorizontalAlignment="Left" Height="32"  TextWrapping="Wrap" Text="3" VerticalAlignment="Top" Width="44" UndoLimit="3" FontSize="16"/>
+            <Separator Width="22" Background="{x:Null}" />
+            <Button Click="DrawPoints" Content="Построить" Height="27" HorizontalAlignment="Left" x:Name="button_random" VerticalAlignment="Top" Width="87" FontSize="14" />
+        </StackPanel>
+        <WrapPanel Grid.Row="1" Grid.Column="0" Background="LightBlue"  Width="525" UseLayoutRounding="False" >
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition />
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="40"/>
+                    <RowDefinition />
+                    <RowDefinition  Height="45"/>
+                </Grid.RowDefinitions>
+                <Label Grid.Row="0" Grid.Column="0" Content="Метод ветвей и границ" Height="40" Width="262" FontSize="16" Margin="143,5,-143,235" Grid.RowSpan="2" />
+                <Grid  Grid.Row="1" Grid.Column="0" x:Name="graph5"  Height="240" Width="240" Background="#FFC8E8C4" Margin="142,5,-71,40" Grid.RowSpan="2" />
+                <StackPanel Grid.Row="2" Grid.Column="0" Margin="142,5,-142,-5" Width="311">
+
+                    <Label Content="= (время (мс" Height="27" FlowDirection="RightToLeft" Margin="-9,0,211,0" />
+
+                    <TextBox x:Name="textB_timeBB" Height="21" TextWrapping="Wrap" Text="5" Margin="0,0,245,0" RenderTransformOrigin="8.75,-0.619"/>
+
+                </StackPanel>
+            </Grid>
+        </WrapPanel>
+        <StackPanel Grid.Row="2" Grid.Column="0"  Width="1334" Orientation="Horizontal" VerticalAlignment="Top" Height="40" Margin="9,6,9,0">
+            <Separator Width="152" Background="{x:Null}" />
+            <Button x:Name="button_CalcBB" Content="Расчет" Height="31" HorizontalAlignment="Left" VerticalAlignment="Top" Width="110" IsEnabled="False" FontSize="16" FontFamily="Tunga" Click="button_CalcBB_Click" />
+        </StackPanel>
+        <WrapPanel Grid.Row="3" Grid.Column="0"  Width="1334" UseLayoutRounding="False" VerticalAlignment="Top" Height="70">
+            <StackPanel Height="71" VerticalAlignment="Top" Width="165">
+                <Label Content=" Длина маршрута = " Height="27" HorizontalContentAlignment="Right"  />
+                <Label Content=" Время работы = " Height="27" HorizontalContentAlignment="Right"  />
+            </StackPanel>
+            <StackPanel Height="70" VerticalAlignment="Top" Width="75">
+                <Label x:Name="lengthBB" Height="27"  />
+                <Label x:Name="timeBB" Height="27"/>
+            </StackPanel>
+        </WrapPanel>
+    </Grid>
+</Window>

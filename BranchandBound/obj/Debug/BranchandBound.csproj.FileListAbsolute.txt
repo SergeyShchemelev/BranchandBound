@@ -1,0 +1,14 @@
+C:\Users\Сергей\Documents\Visual Studio 2015\Projects\BranchandBound\BranchandBound\bin\Debug\BranchandBound.exe.config
+C:\Users\Сергей\Documents\Visual Studio 2015\Projects\BranchandBound\BranchandBound\bin\Debug\BranchandBound.exe
+C:\Users\Сергей\Documents\Visual Studio 2015\Projects\BranchandBound\BranchandBound\bin\Debug\BranchandBound.pdb
+C:\Users\Сергей\Documents\Visual Studio 2015\Projects\BranchandBound\BranchandBound\obj\Debug\BranchandBound.csprojResolveAssemblyReference.cache
+C:\Users\Сергей\Documents\Visual Studio 2015\Projects\BranchandBound\BranchandBound\obj\Debug\MainWindow.g.cs
+C:\Users\Сергей\Documents\Visual Studio 2015\Projects\BranchandBound\BranchandBound\obj\Debug\App.g.cs
+C:\Users\Сергей\Documents\Visual Studio 2015\Projects\BranchandBound\BranchandBound\obj\Debug\BranchandBound_MarkupCompile.cache
+C:\Users\Сергей\Documents\Visual Studio 2015\Projects\BranchandBound\BranchandBound\obj\Debug\BranchandBound_MarkupCompile.lref
+C:\Users\Сергей\Documents\Visual Studio 2015\Projects\BranchandBound\BranchandBound\obj\Debug\MainWindow.baml
+C:\Users\Сергей\Documents\Visual Studio 2015\Projects\BranchandBound\BranchandBound\obj\Debug\BranchandBound.g.resources
+C:\Users\Сергей\Documents\Visual Studio 2015\Projects\BranchandBound\BranchandBound\obj\Debug\BranchandBound.Properties.Resources.resources
+C:\Users\Сергей\Documents\Visual Studio 2015\Projects\BranchandBound\BranchandBound\obj\Debug\BranchandBound.csproj.GenerateResource.Cache
+C:\Users\Сергей\Documents\Visual Studio 2015\Projects\BranchandBound\BranchandBound\obj\Debug\BranchandBound.exe
+C:\Users\Сергей\Documents\Visual Studio 2015\Projects\BranchandBound\BranchandBound\obj\Debug\BranchandBound.pdb
